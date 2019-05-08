@@ -5,9 +5,9 @@ class Hash
     returnArr = []
     self.each do |key, value|
       if arguments.include?(value)
-        animals.push(animal)
+        returnArr << value
       end
     end
-      return animals
+    return returnArr
   end
 end
