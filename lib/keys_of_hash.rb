@@ -5,7 +5,7 @@ class Hash
     returnArr = []
     self.each do |key, value|
       if arguments.include?(value)
-        returnArr << value
+        returnArr << key
       end
     end
     return returnArr
